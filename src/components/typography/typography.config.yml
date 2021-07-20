@@ -3,17 +3,24 @@ context:
     - title: Display large
       tag: h1
       class: display-lg
-      content: The quick brown fox jumps over the lazy dog.
+      content: |
+        The quick brown fox jumps over the lazy dog.<br>
+        Moscone Center South 2019新型冠狀病毒疫苗接種點
 
     - title: Display small
       tag: h2
       class: display-sm
-      content: The quick brown fox jumps over the lazy dog.
+      content: |
+        The quick brown fox jumps over the lazy dog.<br>
+        Moscone Center South 2019新型冠狀病毒疫苗接種點
 
     - title: Title x-large
       tag: h1
       class: title-xl
-      content: The quick brown fox jumps over the lazy dog.
+      content: |
+        The quick brown fox jumps over the lazy dog.<br>
+        Moscone Center South 2019新型冠狀病毒疫苗接種點
+
 
     - title: Title large
       tag: h2
@@ -47,6 +54,16 @@ context:
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod in pellentesque massa placerat duis ultricies. Mauris vitae ultricies leo integer malesuada nunc vel. Sed odio morbi quis commodo odio. 
         <br><br>
         Sagittis aliquam malesuada bibendum arcu vitae. Eros in cursus turpis massa tincidunt dui ut. Urna nunc id cursus metus aliquam eleifend mi. Ac turpis egestas sed tempus. Diam quis enim lobortis scelerisque fermentum. Rutrum quisque non tellus orci ac auctor augue mauris.
+        <br><br>
+        十二歲以上並在三藩市居住或工作的符合疫苗接種資格。十八歲以下的人需要父母或監護人的同意才能接種疫苗。
+        <br><br>
+        您無需有保險便可預約。
+        <br><br>
+        服務時間為每週7天，每天上午8點30分至下午4點。
+        <br><br>
+        在州政府MyTurn的網站上預約在Moscone Center South接種第一劑疫苗。在確認您的所在位置和資格條件後，您方可查看疫苗接種的預約情況。請您根據三藩市的接種資格標準來回答問題。如果預約額滿，請稍後再查詢。
+        <br><br>
+        如果您在Moscone接種第一劑疫苗，則必需在Moscone接種第二劑疫苗。如果您需要在Moscone預約接種第二劑疫苗，可以在大堂的服務台諮詢。 服務台的開放時間為每天早上8點30分至下午4點。
 
     - title: Small
       tag: p

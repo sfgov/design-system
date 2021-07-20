@@ -1,6 +1,6 @@
 @layer base {
   * {
-    @apply font-rubik;
+    @apply font-sans;
   }
 
   body {

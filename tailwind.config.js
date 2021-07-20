@@ -1,9 +1,6 @@
 const theme = require('./src/theme')
 
-const { PURGE_CSS } = process.env
-
 module.exports = {
-  purge: PURGE_CSS ? { enable: true, content: PURGE_CSS.split(',') } : false,
   important: true,
 
   /*
