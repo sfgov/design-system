@@ -1,10 +1,31 @@
 {% set button_class = 'btn btn-inverse rounded-4 px-8 py-4' %}
 <div class="my-20 border-1 border-solid border-slate-4">
-  <div class="p-20">
+  <div class="p-20 relative group">
     <iframe class="w-full border-0 bg-white"
       {% for attr, value in iframe.properties -%}
         {{ attr }}="{{ value | e }}"
       {% endfor %}></iframe>
+    {% if codepen %}
+      <div class="absolute top-0 right-0 p-8 hidden group-hover:block">
+        <form
+          action="https://codepen.io/pen/define/"
+          method="POST"
+          target="_blank"
+        >
+          <input
+            name="data"
+            type="hidden"
+            value="{{ codepen | dump(2) | e }}"
+          >
+          <button
+            type="submit"
+            class="btn bg-white px-8 py-2 text-slate-light text-small font-mono"
+            title="Edit this example in CodePen">
+            CodePen
+          </button>
+        </form>
+      </div>
+    {% endif %}
   </div>
   <div class="bg-grey-1 border-0 border-t-1 border-solid border-slate-4 relative">
     <div class="flex justify-start">
