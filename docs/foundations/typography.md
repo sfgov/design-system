@@ -1,76 +1,107 @@
 ---
 title: Typography
 specimens:
-  sm: The quick brown fox jumps over the lazy dog.
-  md: Sagittis aliquam malesuada bibendum arcu vitae (regular)
-  lg: Euismod in pellentesque massa placerat duis ultricies. Mauris vitae ultricies leo integer malesuada nunc vel. Sed odio morbi quis commodo odio.
-  xl: 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod in pellentesque massa placerat duis ultricies. Mauris vitae ultricies leo integer malesuada nunc vel. Sed odio morbi quis commodo odio. 
-    <br><br>
-    Sagittis aliquam malesuada bibendum arcu vitae. Eros in cursus turpis massa tincidunt dui ut. Urna nunc id cursus metus aliquam eleifend mi. Ac turpis egestas sed tempus. Diam quis enim lobortis scelerisque fermentum. Rutrum quisque non tellus orci ac auctor augue mauris.
+  default: The quick brown fox jumps over the lazy dog.
 ---
 
-## Display titles
+## Introduction
+Our typeface is Rubik, which was designed by Hubert and Fischer in 2015 for
+Google Fonts. It is an open-source typeface that comes in 5 weights with
+Roman and Italic styles, and can be accessed for free through [Google
+Fonts][rubik].
 
-### Display large
-```html
-<h1 class="display-lg m-0 mb-4">The quick brown fox jumps over the lazy dog.</h1>
-```
+We are primarily using only 3 of Rubik’s weights: Light, Regular, and Semibold.
 
-### Display small
-```html
-<h1 class="display-sm m-0">The quick brown fox jumps over the lazy dog.</h1>
-```
+## Text styles
+This set of standardized text styles should cover most needs, including
+headings and body copy.
 
-## Titles
+For some of the larger titles, there are special mobile styles that are sized
+down so that text will still fit on a smaller screen.
 
-### Title x-large
-```html
-<h1 class="title-xl mb-4">The quick brown fox jumps over the lazy dog.</h1>
-```
+### Bold
+Rubik Bold is very wide and heavy, so we use Rubik Semibold as our “bold”
+weight option. This is used in headers, but also any text that is `<strong>` or
+`<b>`. Rubik Bold should not be used.
 
-### Title large
-```html
-<h1 class="title-lg m-0">The quick brown fox jumps over the lazy dog.</h1>
-```
+### Italic
+We try to avoid Italic text on SF.gov. It is difficult to read, especially for
+people with dyslexia or visual impairments. Try to differentiate your text
+using color, size, spacing, or other treatments instead.
 
-### Title medium
-```html
-<h1 class="title-md m-0">The quick brown fox jumps over the lazy dog.</h1>
-```
+### Links
+We primarily use underlines to indicate clickable links. If a link is included
+in any of the text styles, it should be underlined. Note, color is also often
+used to differentiate the link text.
 
-### Title small
-```html
-<h1 class="title-sm m-0 mb-8">The quick brown fox jumps over the lazy dog.</h1>
-```
+### Monospace
+Use rarely. Monospace can help separate code or labels from natural language
+text (for instance in `<kbd>` for keyboard instructions). In the future,
+another possible use is when proportionally spaced characters would cause
+misalignment or jumping.
 
-### Title x-small
-```html
-<h1 class="title-xs m-0 mb-8">The quick brown fox jumps over the lazy dog.</h1>
-```
+> <div class="font-mono">The quick brown fox jumps over the lazy dog.</div>
 
-## Other styles
+## Desktop text styles
+These styles are used on larger screens.
 
-### Big description
-```html
-<p class="big-desc m-0">Euismod in pellentesque massa placerat duis ultricies. Mauris vitae ultricies leo integer malesuada nunc vel. Sed odio morbi quis commodo odio.</p>
-```
+### Page tiles
+Use page titles to introduce and group sections of content. Ideally, page
+titles should be nested, from [x-large](#x-large-title) to
+[x-small](#x-small-title) sizes, but occasionally a title style is skipped for
+a greater size difference. Use either [x-large](#x-large-title) title (pages
+with color banner) or display [large](#large-title) (pages with no color
+banner) to style the one-time page title (`<h1>`).
 
-### Body text
-```html
-<p class="text-body m-0">
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod in pellentesque massa placerat duis ultricies. Mauris vitae ultricies leo integer malesuada nunc vel. Sed odio morbi quis commodo odio. 
-  <br><br>
-  Sagittis aliquam malesuada bibendum arcu vitae. Eros in cursus turpis massa tincidunt dui ut. Urna nunc id cursus metus aliquam eleifend mi. Ac turpis egestas sed tempus. Diam quis enim lobortis scelerisque fermentum. Rutrum quisque non tellus orci ac auctor augue mauris.
-</p>
-```
+#### X-large title
+> <div class="title-xl">{{ specimens.default }}</div>
 
-### Small text
-```html
-<p class="text-small m-0">Sagittis aliquam malesuada bibendum arcu vitae</p>
-```
+#### Large title
+> <div class="title-lg">{{ specimens.default }}</div>
 
-### Monospace body
-```html
-<p class="font-mono m-0">The quick brown fox jumps over the lazy dog.</p>
-```
+#### Medium title
+> <div class="title-md">{{ specimens.default }}</div>
+
+#### Small title
+> <div class="title-sm">{{ specimens.default }}</div>
+
+#### X-small title
+> <div class="title-xs">{{ specimens.default }}</div>
+
+#### X-small title link
+> <div class="title-xs"><a href="#">{{ specimens.default }}</a></div>
+
+#### Display large
+> <div class="display-lg">{{ specimens.default }}</div>
+
+#### Display small
+> <div class="display-sm">{{ specimens.default }}</div>
+
+### Additional text styles
+
+#### Big description
+Use to draw attention to blocks of text, such as the page introduction
+paragraph. This style is slightly larger in size and line height compared to
+the regular body text style.
+
+> <div class="big-desc">{{ specimens.default }}</div>
+
+#### Body
+Use for paragraph and list text. This style can be used in regular, bold and
+link format.
+
+> <div class="text-body">{{ specimens.default }}</div>
+
+#### Small text
+Use this style sparingly for text that is smaller than the regular body style
+size, such as photo credits.
+
+> <div class="text-small">{{ specimens.default }}</div>
+
+### Mobile text styles
+These styles follow the same guidelines as the desktop styles but are
+smaller in size for use on smaller screens.
+
+
+[google fonts]: https://fonts.google.com
+[rubik]: https://fonts.google.com/specimen/Rubik

@@ -7,7 +7,7 @@
       class="text-inherit"
       href="{{ '' | repo_url }}/commit/{{ git.commit.sha }}"
     >{{ git.commit.date | local_date }}</a>
-    {% if git.commit.author %}
+    {% if git.commit.author.login %}
       by <a
         class="text-inherit"
         href="https://github.com/{{ git.commit.author.login }}"
