@@ -1,0 +1,268 @@
+{
+  "figma": {
+    "url": "https://figma.com/file/R9KP76KdmjlWdKLZD9qTiw/Assets (Copy)",
+    "version": "307675884",
+    "date": "2020-04-24T18:54:37.636422Z",
+    "thumbnail": "https://s3-alpha-sig.figma.com/thumbnails/d39c4e60-5779-47a0-949b-9593037d0e15?Expires=1588550400&Signature=fRDhYU4nQumfmSJtNTuMM29txN0O0vtZpzNwfXWkEJN-rRGus0yS5bzzH4rP3CtsBApfFGjOdqbxwjzn5VStE39MY2VquJNj-9rkcT2iEo~rxVyzZTEkEpX4bT2OWtI-GwHErXqKSf3Hm4G9QRlJB3E49ZurfYidIMMZ7c032zGfQu46OeM-I0OeIrVIkJFjIlaUy4Ye5by~qbRDmaskMYOG2oCW1lveehex1iQY2ztCFH7tYXwwJEMdf3qLjYFhYzb~~E4zKXLvLcGBelBPKpH8~0nleibU0XyzbJdyUuaY8yBqxBGSGq9CsjdJQikco1Sw3df9ec52Dv459Ir8RQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+  },
+  "icons": {
+    "alert": {
+      "name": "Alert",
+      "url": "https://figma.com/file/R9KP76KdmjlWdKLZD9qTiw/Assets (Copy)?node-id=64:179",
+      "id": "alert",
+      "tags": [
+        "warning",
+        "exclamation",
+        "!"
+      ],
+      "svg": "<svg viewBox=\"0 0 20 20\"><path d=\"M10 10.94a1.25 1.25 0 001.25-1.25V5.94a1.25 1.25 0 00-2.5 0v3.75A1.25 1.25 0 0010 10.94zm0 4.56a1.5 1.5 0 100-3 1.5 1.5 0 000 3z\"/><path d=\"M10 0a10 10 0 100 20 10 10 0 000-20zm0 17.5a7.5 7.5 0 110-15 7.5 7.5 0 010 15z\"/></svg>",
+      "filename": "alert.svg"
+    },
+    "arrow-down": {
+      "name": "Arrow down",
+      "url": "https://figma.com/file/R9KP76KdmjlWdKLZD9qTiw/Assets (Copy)?node-id=64:180",
+      "id": "arrow-down",
+      "tags": [
+        "arrow",
+        "down"
+      ],
+      "svg": "<svg viewBox=\"0 0 20 20\"><path d=\"M10.885 19.635l6.365-6.365a1.25 1.25 0 10-1.75-1.77l-4.25 4.23V1.25a1.25 1.25 0 00-2.5 0v14.5L4.5 11.5a1.25 1.25 0 00-1.75 1.77l6.365 6.365a1.255 1.255 0 001.77 0z\"/></svg>",
+      "filename": "arrow-down.svg"
+    },
+    "arrow-left": {
+      "name": "Arrow left",
+      "url": "https://figma.com/file/R9KP76KdmjlWdKLZD9qTiw/Assets (Copy)?node-id=64:181",
+      "id": "arrow-left",
+      "tags": [
+        "arrow",
+        "left"
+      ],
+      "svg": "<svg viewBox=\"0 0 20 20\"><path d=\"M.365 10.885L6.73 17.25A1.25 1.25 0 108.5 15.5l-4.23-4.25h14.5a1.25 1.25 0 000-2.5H4.27L8.5 4.5a1.25 1.25 0 00-1.77-1.75L.365 9.115a1.255 1.255 0 000 1.77z\"/></svg>",
+      "filename": "arrow-left.svg"
+    },
+    "arrow-right": {
+      "name": "Arrow right",
+      "url": "https://figma.com/file/R9KP76KdmjlWdKLZD9qTiw/Assets (Copy)?node-id=64:182",
+      "id": "arrow-right",
+      "tags": [
+        "arrow",
+        "right"
+      ],
+      "svg": "<svg viewBox=\"0 0 20 20\"><path d=\"M19.635 9.115L13.27 2.75A1.25 1.25 0 0011.5 4.5l4.23 4.23H1.25a1.25 1.25 0 100 2.5h14.5L11.5 15.5a1.252 1.252 0 001.77 1.77l6.365-6.385a1.255 1.255 0 000-1.77z\"/></svg>",
+      "filename": "arrow-right.svg"
+    },
+    "arrow-up": {
+      "name": "Arrow up",
+      "url": "https://figma.com/file/R9KP76KdmjlWdKLZD9qTiw/Assets (Copy)?node-id=64:183",
+      "id": "arrow-up",
+      "tags": [
+        "arrow",
+        "up"
+      ],
+      "svg": "<svg viewBox=\"0 0 20 20\"><path d=\"M9.115.365L2.75 6.73A1.25 1.25 0 004.5 8.5l4.25-4.23v14.5a1.25 1.25 0 102.5 0V4.27L15.5 8.5a1.252 1.252 0 001.77-1.77L10.885.365a1.255 1.255 0 00-1.77 0z\"/></svg>",
+      "filename": "arrow-up.svg"
+    },
+    "building": {
+      "name": "Building",
+      "url": "https://figma.com/file/R9KP76KdmjlWdKLZD9qTiw/Assets (Copy)?node-id=64:184",
+      "id": "building",
+      "tags": [
+        "office"
+      ],
+      "svg": "<svg viewBox=\"0 0 20 20\"><path d=\"M18 2.945A2.945 2.945 0 0015.055 0H4.945A2.945 2.945 0 002 2.945v14.11c0 .152.029.303.085.445H2V20h16v-2.5h-.085c.056-.142.085-.293.085-.445V2.945zM11.44 17.5a1.06 1.06 0 00.06-.335V14.5a1 1 0 00-1-1h-1a1 1 0 00-1 1v2.645c.002.114.022.227.06.335H4.415c.054-.135.082-.28.085-.425V2.945a.445.445 0 01.445-.445h10.11a.445.445 0 01.445.445v14.11c0 .152.029.303.085.445H11.44z\"/><path d=\"M8 4.5h-.5a1 1 0 00-1 1V6a1 1 0 001 1H8a1 1 0 001-1v-.5a1 1 0 00-1-1zm4.5 0H12a1 1 0 00-1 1V6a1 1 0 001 1h.5a1 1 0 001-1v-.5a1 1 0 00-1-1zM8 9h-.5a1 1 0 00-1 1v.5a1 1 0 001 1H8a1 1 0 001-1V10a1 1 0 00-1-1zm4.5 0H12a1 1 0 00-1 1v.5a1 1 0 001 1h.5a1 1 0 001-1V10a1 1 0 00-1-1z\"/></svg>",
+      "filename": "building.svg"
+    },
+    "check": {
+      "name": "Check",
+      "url": "https://figma.com/file/R9KP76KdmjlWdKLZD9qTiw/Assets (Copy)?node-id=64:185",
+      "id": "check",
+      "tags": [
+        "ok",
+        "success",
+        "complete"
+      ],
+      "svg": "<svg viewBox=\"0 0 20 20\"><path d=\"M5.75 16.755a1.245 1.245 0 01-.885-.365l-4.5-4.5a1.25 1.25 0 111.77-1.765L5.75 13.74 17.87 1.62a1.25 1.25 0 011.765 1.77l-13 13a1.245 1.245 0 01-.885.365z\"/></svg>",
+      "filename": "check.svg"
+    },
+    "chevron-down": {
+      "name": "Chevron down",
+      "url": "https://figma.com/file/R9KP76KdmjlWdKLZD9qTiw/Assets (Copy)?node-id=64:186",
+      "id": "chevron-down",
+      "tags": [
+        "chevron",
+        "down"
+      ],
+      "svg": "<svg viewBox=\"0 0 20 20\"><path d=\"M9.96 14.755a1.245 1.245 0 01-.885-.365l-7.5-7.5a1.252 1.252 0 111.77-1.77l6.615 6.62 6.615-6.62a1.251 1.251 0 111.77 1.77l-7.5 7.5a1.247 1.247 0 01-.885.365z\"/></svg>",
+      "filename": "chevron-down.svg"
+    },
+    "chevron-left": {
+      "name": "Chevron left",
+      "url": "https://figma.com/file/R9KP76KdmjlWdKLZD9qTiw/Assets (Copy)?node-id=64:187",
+      "id": "chevron-left",
+      "tags": [
+        "chevron",
+        "left"
+      ],
+      "svg": "<svg viewBox=\"0 0 20 20\"><path d=\"M13.25 18.5a1.245 1.245 0 01-.885-.365l-7.5-7.5a1.26 1.26 0 010-1.77l7.5-7.5a1.251 1.251 0 111.77 1.77L7.5 9.755l6.635 6.615a1.26 1.26 0 010 1.77 1.246 1.246 0 01-.885.36z\"/></svg>",
+      "filename": "chevron-left.svg"
+    },
+    "chevron-right": {
+      "name": "Chevron right",
+      "url": "https://figma.com/file/R9KP76KdmjlWdKLZD9qTiw/Assets (Copy)?node-id=64:188",
+      "id": "chevron-right",
+      "tags": [
+        "chevron",
+        "right"
+      ],
+      "svg": "<svg viewBox=\"0 0 20 20\"><path d=\"M6.75 18.5a1.245 1.245 0 01-1.248-1.25c0-.331.13-.65.363-.885l6.635-6.61L5.865 3.14a1.252 1.252 0 011.77-1.77l7.5 7.5a1.26 1.26 0 010 1.77l-7.5 7.5a1.246 1.246 0 01-.885.36z\"/></svg>",
+      "filename": "chevron-right.svg"
+    },
+    "chevron-up": {
+      "name": "Chevron up",
+      "url": "https://figma.com/file/R9KP76KdmjlWdKLZD9qTiw/Assets (Copy)?node-id=64:189",
+      "id": "chevron-up",
+      "tags": [
+        "chevron",
+        "up"
+      ],
+      "svg": "<svg viewBox=\"0 0 20 20\"><path d=\"M17.46 14.755a1.245 1.245 0 01-.885-.365L9.96 7.775 3.345 14.39a1.252 1.252 0 01-1.77-1.77l7.5-7.5a1.26 1.26 0 011.77 0l7.5 7.5a1.26 1.26 0 010 1.77 1.245 1.245 0 01-.885.365z\"/></svg>",
+      "filename": "chevron-up.svg"
+    },
+    "clock": {
+      "name": "Clock",
+      "url": "https://figma.com/file/R9KP76KdmjlWdKLZD9qTiw/Assets (Copy)?node-id=64:190",
+      "id": "clock",
+      "tags": [
+        "time"
+      ],
+      "svg": "<svg viewBox=\"0 0 20 20\"><path d=\"M10.25 4.69A1.245 1.245 0 009 5.94v4l-2.165 2a1.251 1.251 0 101.69 1.845l2.57-2.36a1.24 1.24 0 00.405-.925V5.94a1.244 1.244 0 00-1.25-1.25z\"/><path d=\"M10 0a10 10 0 100 20 10 10 0 000-20zm0 17.5a7.5 7.5 0 110-15 7.5 7.5 0 010 15z\"/></svg>",
+      "filename": "clock.svg"
+    },
+    "close": {
+      "name": "Close",
+      "url": "https://figma.com/file/R9KP76KdmjlWdKLZD9qTiw/Assets (Copy)?node-id=64:191",
+      "id": "close",
+      "tags": [
+        "x",
+        "delete",
+        "remove"
+      ],
+      "svg": "<svg viewBox=\"0 0 20 20\"><path d=\"M11.77 10l7.115-7.115a1.252 1.252 0 00-1.77-1.77L10 8.23 2.885 1.115a1.252 1.252 0 00-1.77 1.77L8.23 10l-7.115 7.115a1.26 1.26 0 000 1.77 1.255 1.255 0 001.77 0L10 11.77l7.115 7.115a1.255 1.255 0 001.77 0 1.26 1.26 0 000-1.77L11.77 10z\"/></svg>",
+      "filename": "close.svg"
+    },
+    "document": {
+      "name": "Document",
+      "url": "https://figma.com/file/R9KP76KdmjlWdKLZD9qTiw/Assets (Copy)?node-id=64:192",
+      "id": "document",
+      "tags": [
+        "file"
+      ],
+      "svg": "<svg viewBox=\"0 0 20 20\"><path d=\"M17.65 7.38l-6.75-7A1.265 1.265 0 0010 0H3.25A1.25 1.25 0 002 1.25v17.5A1.25 1.25 0 003.25 20h13.5A1.25 1.25 0 0018 18.75V8.25c0-.324-.125-.636-.35-.87zM11 4.09l3.305 3.41H11V4.09zM4.5 17.5v-15h4v6.265A1.25 1.25 0 009.75 10h5.75v7.5h-11z\"/></svg>",
+      "filename": "document.svg"
+    },
+    "globe": {
+      "name": "Globe",
+      "url": "https://figma.com/file/R9KP76KdmjlWdKLZD9qTiw/Assets (Copy)?node-id=64:193",
+      "id": "globe",
+      "tags": [
+        "world",
+        "earth"
+      ],
+      "svg": "<svg viewBox=\"0 0 20 20\"><path d=\"M10 0a10 10 0 100 20 10 10 0 000-20zm7.425 9h-2.11A11.275 11.275 0 0013.5 3.375 7.5 7.5 0 0117.425 9zM9 3.43V9H6.695C6.92 6.215 7.945 4.5 9 3.43zM9 11v5.82C7.915 15.73 6.85 13.935 6.675 11H9zm2 5.82V11h2.325c-.175 2.935-1.24 4.73-2.325 5.82zM11 9V3.43C12.055 4.5 13.08 6.215 13.305 9H11zM6.5 3.375A11.275 11.275 0 004.685 9h-2.11A7.5 7.5 0 016.5 3.375zM2.575 11H4.68a11.65 11.65 0 001.565 5.5 7.524 7.524 0 01-3.67-5.5zm11.18 5.5A11.65 11.65 0 0015.32 11h2.105a7.524 7.524 0 01-3.67 5.5z\"/></svg>",
+      "filename": "globe.svg"
+    },
+    "info": {
+      "name": "Info",
+      "url": "https://figma.com/file/R9KP76KdmjlWdKLZD9qTiw/Assets (Copy)?node-id=64:194",
+      "id": "info",
+      "tags": [
+        "information",
+        "i"
+      ],
+      "svg": "<svg viewBox=\"0 0 20 20\"><path d=\"M10 9.06a1.25 1.25 0 00-1.25 1.25v3.75a1.25 1.25 0 002.5 0v-3.75A1.25 1.25 0 0010 9.06zm0-1.56a1.5 1.5 0 100-3 1.5 1.5 0 000 3z\"/><path d=\"M10 0a10 10 0 100 20 10 10 0 000-20zm0 17.5a7.5 7.5 0 110-15 7.5 7.5 0 010 15z\"/></svg>",
+      "filename": "info.svg"
+    },
+    "location": {
+      "name": "Location",
+      "url": "https://figma.com/file/R9KP76KdmjlWdKLZD9qTiw/Assets (Copy)?node-id=64:195",
+      "id": "location",
+      "tags": [
+        "pin",
+        "marker"
+      ],
+      "svg": "<svg viewBox=\"0 0 20 20\"><path d=\"M10 6.125a1.875 1.875 0 100 3.75 1.875 1.875 0 000-3.75z\"/><path d=\"M10 2.5A5.5 5.5 0 0115.5 8c0 2.66-2.855 6.375-5.5 8.77C7.355 14.375 4.5 10.66 4.5 8A5.5 5.5 0 0110 2.5zM10 0a8 8 0 00-8 8c0 4.42 4.865 9.7 8 12 3.135-2.3 8-7.58 8-12a8 8 0 00-8-8z\"/></svg>",
+      "filename": "location.svg"
+    },
+    "mail": {
+      "name": "Mail",
+      "url": "https://figma.com/file/R9KP76KdmjlWdKLZD9qTiw/Assets (Copy)?node-id=64:196",
+      "id": "mail",
+      "tags": [
+        "envelope"
+      ],
+      "svg": "<svg viewBox=\"0 0 20 20\"><path d=\"M18.75 2H1.25A1.25 1.25 0 000 3.25v13.5A1.25 1.25 0 001.25 18h17.5A1.25 1.25 0 0020 16.75V3.25A1.25 1.25 0 0018.75 2zm-1.29 2.5L10 10.405 2.54 4.5h14.92zM2.5 15.5V7.66L9.225 13a1.245 1.245 0 001.55 0L17.5 7.66v7.84h-15z\"/></svg>",
+      "filename": "mail.svg"
+    },
+    "pencil": {
+      "name": "Pencil",
+      "url": "https://figma.com/file/R9KP76KdmjlWdKLZD9qTiw/Assets (Copy)?node-id=64:197",
+      "id": "pencil",
+      "tags": [
+        "edit",
+        "write"
+      ],
+      "svg": "<svg viewBox=\"0 0 20 20\"><path d=\"M19.636 3.65L16.35.365a1.25 1.25 0 00-1.765 0l-13.22 13.22a1.21 1.21 0 00-.33.6l-1 4.28a1.245 1.245 0 001.5 1.5l4.28-1a1.21 1.21 0 00.6-.33l13.22-13.22a1.25 1.25 0 000-1.765zM15.466 3l1.5 1.5-1.215 1.265-1.5-1.5L15.466 3zM4.9 16.615l-2 .46.46-1.975L12.466 6l1.5 1.5L4.9 16.615z\"/></svg>",
+      "filename": "pencil.svg"
+    },
+    "phone": {
+      "name": "Phone",
+      "url": "https://figma.com/file/R9KP76KdmjlWdKLZD9qTiw/Assets (Copy)?node-id=64:198",
+      "id": "phone",
+      "tags": [
+        "telephone"
+      ],
+      "svg": "<svg viewBox=\"0 0 20 20\"><path d=\"M12.65 19.92a5.84 5.84 0 01-4.18-1.695l-6.57-6.57c-2.4-2.38-2.235-6.4.325-8.96L4.5.445a1.25 1.25 0 011.77 0l4.23 4.24a1.25 1.25 0 010 1.77L8.54 8.4l3.185 3.18 1.945-1.945a1.25 1.25 0 011.765 0l4.245 4.245a1.25 1.25 0 010 1.765L17.425 17.9a6.78 6.78 0 01-4.775 2.02zM4 4.465c-1.585 1.585-1.73 4-.325 5.42l6.56 6.57c1.405 1.405 3.84 1.26 5.425-.325l1.365-1.365-2.47-2.5-1.945 1.94a1.25 1.25 0 01-1.77 0l-4.95-4.95a1.245 1.245 0 010-1.765l1.945-1.945-2.475-2.45L4 4.465z\"/></svg>",
+      "filename": "phone.svg"
+    },
+    "search": {
+      "name": "Search",
+      "url": "https://figma.com/file/R9KP76KdmjlWdKLZD9qTiw/Assets (Copy)?node-id=64:199",
+      "id": "search",
+      "tags": [
+        "lens"
+      ],
+      "svg": "<svg viewBox=\"0 0 20 20\"><path d=\"M19.385 17.615l-5.78-5.775a7.5 7.5 0 10-1.765 1.765l5.775 5.78a1.255 1.255 0 001.77 0 1.26 1.26 0 000-1.77zM2.5 7.5a5 5 0 1110 0 5 5 0 01-10 0z\"/></svg>",
+      "filename": "search.svg"
+    },
+    "calendar": {
+      "name": "Calendar",
+      "url": "https://figma.com/file/R9KP76KdmjlWdKLZD9qTiw/Assets (Copy)?node-id=351:95",
+      "id": "calendar",
+      "tags": [
+        "date"
+      ],
+      "svg": "<svg viewBox=\"0 0 20 20\"><path d=\"M20 9V4a1.244 1.244 0 00-1.25-1.25H16v-1.5a1.25 1.25 0 00-2.5 0v1.5h-7v-1.5a1.25 1.25 0 00-2.5 0v1.5H1.25a1.275 1.275 0 00-.885.365A1.275 1.275 0 000 4v14.5c.002.331.133.649.365.885.236.232.554.363.885.365h17.5A1.244 1.244 0 0020 18.5V9zm-2.5-3.75v2.5h-15v-2.5h15zm-15 5h15v7h-15v-7z\"/></svg>",
+      "filename": "calendar.svg"
+    },
+    "minus": {
+      "name": "Minus",
+      "url": "https://figma.com/file/R9KP76KdmjlWdKLZD9qTiw/Assets (Copy)?node-id=368:28",
+      "id": "minus",
+      "tags": [
+        "subtract"
+      ],
+      "svg": "<svg viewBox=\"0 0 19 19\"><path d=\"M17.5 8h-16a1.5 1.5 0 000 3h16a1.5 1.5 0 100-3z\"/></svg>",
+      "filename": "minus.svg"
+    },
+    "plus": {
+      "name": "Plus",
+      "url": "https://figma.com/file/R9KP76KdmjlWdKLZD9qTiw/Assets (Copy)?node-id=368:27",
+      "id": "plus",
+      "tags": [
+        "add"
+      ],
+      "svg": "<svg viewBox=\"0 0 19 19\"><path d=\"M17.5 8H11V1.5a1.5 1.5 0 10-3 0V8H1.5a1.5 1.5 0 000 3H8v6.5a1.5 1.5 0 003 0V11h6.5a1.5 1.5 0 100-3z\"/></svg>",
+      "filename": "plus.svg"
+    }
+  }
+}

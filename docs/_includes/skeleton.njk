@@ -9,5 +9,8 @@
   </head>
   <body>
     {{ content | safe }}
+    {% block scripts %}
+      {% include 'scripts.njk' %}
+    {% endblock %}
   </body>
 </html>

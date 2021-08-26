@@ -1,10 +1,20 @@
 {% set button_class = 'btn btn-inverse rounded-4 px-8 py-4' %}
+{% set resize_handler %}this.style.height = this.contentDocument.documentElement.offsetHeight + 'px'{% endset %}
+{% set standalone = meta.standalone !== 'false' %}
 <div class="my-20 border-1 border-solid border-slate-4">
   <div class="p-20">
-    <iframe class="w-full border-0 bg-white"
-      {% for attr, value in iframe.properties -%}
-        {{ attr }}="{{ value | e }}"
-      {% endfor %}></iframe>
+    <iframe
+      class="w-full border-0 bg-white"
+      onload="{{ resize_handler }}"
+      onresize="{{ resize_handler }}"
+      scrolling="no"
+      style="overflow-y: auto;"
+      {% if standalone %}
+        src="{{ url }}"
+      {% else %}
+        srcdoc="{{ code | e }}"
+      {% endif %}
+    ></iframe>
   </div>
   <div class="bg-grey-1 border-0 border-t-1 border-solid border-slate-4 relative">
     <div class="flex justify-start">
@@ -12,14 +22,16 @@
         {{ content | safe }}
       </div>
       <div class="p-8 space-y-8">
-        <a
-          href="{{ url }}"
-          title="open in editor"
-          target="_blank"
-          class="{{ button_class }}"
-        >
-          <sfgov-icon symbol="arrow-up"></sfgov-icon>
-        </a>
+        {% if standalone %}
+          <a
+            href="{{ url }}"
+            title="open in editor"
+            target="_blank"
+            class="{{ button_class }}"
+          >
+            <sfgov-icon symbol="arrow-up"></sfgov-icon>
+          </a>
+        {% endif %}
         <clipboard-copy for="{{ id }}" class="block">
           <button
             title="copy example code"
