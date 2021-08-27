@@ -69,8 +69,7 @@ module.exports = {
     1: '#edf4f7',
     2: '#a9d6ea',
     bright: brightBlue,
-    dark: '#0c1464',
-    dark2: sequentialColors.darkBlue[7]
+    dark: '#0c1464'
   },
   slate: {
     DEFAULT: '#1c3e57',
